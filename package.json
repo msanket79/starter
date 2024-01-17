@@ -1,0 +1,42 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "learning react and node",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "prod": "set NODE_ENV=production && nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "sanket",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.8",
+    "slugify": "^1.6.6",
+    "validator": "^13.11.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "prettier": "^3.1.1"
+  },
+  "engines": {
+    "node": "14.17.6"
+  }
+}
